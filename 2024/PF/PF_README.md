@@ -84,3 +84,12 @@ Tailwind CSSを使用したレスポンシブなデザインを適用。
 - views:libraries new,index,bookmarks
 - cotroller:libraries,bookmarks
 - model:user,library,bookmark
+
+# 技術面のアピールポイント
+- Turbo Streamを用いた非同期通信：Turbo Streamsを利用して、ブックマーク機能をページのリロードなしに利用できるようにしました。また、この機能の実装では部分テンプレートを使用してコードの重複を避ける工夫をしました。
+- Maps JavaScript APIとGeocoding APIによる地図書館の位置情報の表示：図書館名を登録するだけで自動で住所を取得し、地図を表示させるようにしました。
+- Places APIを用いたレコメンド機能：ユーザーが住む市を登録しておくだけで近くにある図書館名をマイページにて確認できるようにしました。
+
+# UIのアピールポイント
+- デザイン：TailwindCSSやJavascriptを使用してユーザーが楽しめるようなデザインを意識しました。
+- レスポンシブ対応：デバイスサイズに応じてレイアウトが適用されるように設定しました。一部対応していない部分もあるので今後修正していきます。
