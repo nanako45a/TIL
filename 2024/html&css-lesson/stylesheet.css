@@ -1,0 +1,75 @@
+h1 {
+  /* 文字の色を#ff0000にしてください */
+  color:#ff0000;
+
+  /* 文字の大きさを40pxにしてください */
+  font-size:40px;
+
+  /* 文字の種類をserifにしてください */
+  font-family:serif;
+
+  /* 背景の色を#f3f372にしてください */
+  background-color:#f3f372;
+  
+  /* 高さを80pxにしてください */
+  height:80px;
+  
+  /* 幅を200pxにしてください */
+  width:200px;
+}
+
+p {
+  /* 文字の色を#0000ffにしてください */
+  color:#0000ff;
+
+  /* 文字の大きさを20pxにしてください */
+  font-size:20px;
+
+  /* 文字の種類を"Lucida Grande"にしてください */
+  font-family:"Lucida Grande";
+}
+
+img {
+  /* 高さを50pxにしてください */
+  height:50px;
+
+  /* 幅を70pxにしてください */
+  width:70px;
+}
+
+li {
+  color: #444;
+}
+
+/* <li>要素のselectedクラスの文字の色を#ff0000にしてください */
+.selected{
+  color:#ff0000;
+}
+
+/* body要素全体のfont-familyを"Avenir Next"にしてください */
+body{
+  font-family:"Avenir Next";
+}
+
+/* list-styleプロパティを用いて、<li>要素の黒点を取り除いてください */
+li{
+  list-style: none;
+}
+
+/* headerクラスの背景色を#f7f2b4、高さを90pxにしてください */
+.header{
+  background-color:#f7f2b4; 
+  height:90px;
+}
+
+/* mainクラスの背景色を#bdf7f1、高さを600pxにしてください */
+.main{
+  background-color:#bdf7f1;
+  height:600px;
+}
+
+/* footerクラスの背景色を#ceccf3、高さを270pxにしてください */
+.footer{
+  background-color:#ceccf3;
+  height:270px;
+}
